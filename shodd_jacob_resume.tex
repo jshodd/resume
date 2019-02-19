@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.25in,top=0.2in,right=0.25in,bottom=0.2in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Jacob M. Shodd} % Your name
+%\address{B-1 \\ II , U.P. 208016} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(724)-510-6059 \\ jacobshodd@gmail.com \\ jacobshodd.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\vspace{-10pt}Education}
+
+{\bf Westminster College} \hfill {\em Aug. 2013 - May 2017} 
+\\ Bachelor's of Science in Computer Information Systems
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\vspace{-5pt}Work Experience}
+
+\begin{rSubsection}{Operations Engineer}{\em May 2017 - Current}{M*Modal}{}
+\item {Created an internal web application using Golang to act as a reporting and alerting portal}
+\item {Implemented a Prometheus monitoring framework in Kubernetes clusters across several data centers}
+\item {Wrote, maintained, and utilized Python scripts to automate tasks and process data}
+\item {Deployed production code with Kubernetes and performed profile data migrations between databases}
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{\vspace{-5pt}IT Intern}{\em Aug. 2016 - Mar. 2017}{Treloar and Heisel}{}
+\item {Performed a security assessment and discovered three critical operational vulnerabilities}
+\item {Reduced time required to run monthly financial reports by 97\% using a scripting framework}
+\item {Wrote Python scripts to automate multiple administrative and tedious tasks}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{\vspace{-5pt}IT Intern}{\em May 2016 - Aug. 2016}{Thales Transport and Security}{}
+\item {Wrote a Powershell script to automate common Active Directory tasks}
+\item {Designed a diagram of the server room including all connection paths in Visio}
+\item {Handled all incoming help request tickets for an office of 90 employees}
+\end{rSubsection}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	Project SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\vspace{-5pt}Projects}
+
+\begin{rSubsection}{\vspace{-5pt}Gobot}{\em http://jacobshodd.com/project/goBot}{Golang \& AWS}{}
+\item {Created a SlackBot to react to slash commands in a Slack community with 6,600 active users}
+\item {Deployed to Amazon's serverless Lambda system and is triggered through Amazon's API Gateway}
+\end{rSubsection}
+
+\begin{rSubsection}{\vspace{-5pt}Guest Mapper}{\em https://github.com/jshodd/guestMapper}{Golang \& Neo4J}{}
+\item {Created a REST API to interact with a graphing database to map my relationships with wedding guests}
+\end{rSubsection}
+
+
+\begin{rSubsection}{Sigma Swiper}{\em http://jacobshodd.com/project/sigmaSwiper/}{Python}{}
+\item {Wrote an application to log guest entry by swiping student ID cards while checking against a guest list}
+\item {Built a custom touch screen raspberry pi kiosk for the program to run on, utilizing QT for the user interface}
+\end{rSubsection}
+
+\begin{rSubsection}{\vspace{-5pt}Penetration Test}{}{Senior Capstone}{}
+\item {Used tools like Nmap, Hydra, and Ettercap to test areas such as VNC, LDAP, and user password strength}
+\item {Wrote a custom python script using Scapy to capture VNC packets and display all of a target's keystrokes}
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Certification Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\vspace{-5pt}Certifications}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Amazon Web Services & Certified Developer Associate\\
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\vspace{-5pt}Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages &  Golang, Python Java, SQL, Bash \\
+Software \& Tools &  Kubernetes, Docker, Prometheus, Virtual Box, Linux, Git, PostgreSQL \\
+\end{tabular}
+\end{rSection}
+
+\end{document}
