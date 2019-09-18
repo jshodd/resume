@@ -18,6 +18,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_ACCESS_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
           PULL_REQUEST_BRANCH: generating-pdf
-          COMMIT_MESSAGE: Auto-modify files by my-file-modifier-action
+          COMMIT_MESSAGE: Auto-generate pdf files by my-file-modifier-action
           PULL_REQUEST_TITLE: New PDF Generated
           PULL_REQUEST_BODY: This is an auto-generated PR with changes from my-file-modifier-action
