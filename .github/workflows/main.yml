@@ -1,8 +1,11 @@
 name: Build LaTeX document
 on: 
   push:
+    branches:
+    - master
     paths:
     - '*'
+    - '!*.pdf'
 jobs:
   build_latex:
     runs-on: ubuntu-latest
