@@ -10,3 +10,8 @@ jobs:
         uses: xu-cheng/latex-action@master
         with:
           root_file: shodd_jacob_resume.tex
+      - name: uploading pdf
+        uses: actions/upload-artifact@master
+        with:
+          name: shodd_jacob_resume.pdf
+          path: ./
