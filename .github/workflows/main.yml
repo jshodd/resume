@@ -3,7 +3,8 @@ on:
   push:
     branches:
     - master
-    - '!generating-pdf*'
+    paths:
+    - '!*.pdf'
 jobs:
   build_latex:
     runs-on: ubuntu-latest
